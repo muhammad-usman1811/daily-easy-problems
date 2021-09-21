@@ -1,0 +1,11 @@
+// Write a JS Program to check two numbers and return true if one of the number is 100 or if the sum of the two numbers is 100
+
+const isEqualTo100 = (a,b) => a===100 || b===100 || (a+b) ===100  // Using arrow function
+
+//Write a JS program to get the extension of a file
+
+const getFileExtension = (str) => str.slice(str.lastIndexOf('.'));
+
+//Write a JS program to create a new string adding 'New!' infront of a given string. If the given string begins with 'New' already, then return the original string.
+
+const newString = (str) => str.indexOf('New') ===0 ? str : `New! ${str}`;
